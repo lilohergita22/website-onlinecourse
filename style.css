@@ -1,0 +1,44 @@
+html {
+	scroll-behavior: smooth;
+}
+
+.jumbotron {
+	/*background-color: #aeaeae;*/
+	background-image: url(img/j1.jpg);
+	color: #fff;
+	height: 300px;
+}
+
+.jumbotron2 {
+	background-image: url(img/j2.jpg);
+	color: #fff;
+	background-size: cover;
+}
+
+.about {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	height: 310px;
+}
+
+.contact {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	height: 240px;
+}
+
+
+footer {
+	background-color: pink;
+	color: yellow;
+}
